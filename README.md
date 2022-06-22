@@ -1,5 +1,6 @@
-# RollaBall
-
+### EX NO : 02
+### DATE  : 13.04.2022
+# <p align="center"> Roll a Ball</p>
 ## Aim:
 To Roll a Ball using C# program in unity .
 
@@ -38,22 +39,16 @@ Close the Unity project.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class NewBehaviourScript : MonoBehaviour
-{
-
-    public float xForce = 5.0f;
+{   public float xForce = 5.0f;
     public float zForce = 5.0f;
     public float yForce = 200.0f;   // Start is called before the first frame update
     void Start()
-    {
-        
+    {    
     }
-
     // Update is called once per frame
     void Update()
-    {
-        float x = 0.0f;
+    {   float x = 0.0f;
         if(Input.GetKey(KeyCode.A))
         {
             x = x - xForce;
